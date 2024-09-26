@@ -4,6 +4,7 @@ import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import DifferenceCard from './components/DifferenceCard.jsx'
 import NumbersCard from './components/NumbersCard.jsx'
+import Pricing from './components/Pricing.jsx'
 
 import Section1_Image from './assets/section-1.png'
 import Manage_Your_Home_Image from './assets/manage_your_home.png'
@@ -23,10 +24,22 @@ function App() {
         </div>
       </section>
       <section id="difference_cards" className="px-10 py-8 grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-4">
-        <DifferenceCard title="Comprehensive Smart Home Solutions" body="" />
-        <DifferenceCard title="User-Friendly Experience" body=" " />
-        <DifferenceCard title="Tailored for Your Lifestyle" body=" " />
-        <DifferenceCard title="Innovation that Grows with You" body=" " />
+        <DifferenceCard 
+          title="Comprehensive Smart Home Solutions" 
+          body="Homify provides a wide array of smart devices that work together seamlessly to create a fully automated home. From smart lights to security systems, everything is designed to work in harmony" 
+        />
+        <DifferenceCard
+          title="User-Friendly Experience"
+          body="No need to be tech-savvy! Ourr platform is designed with simplicity in mind. Easily control all your devices through a single app, accessible anytime and anywhere" 
+        />
+        <DifferenceCard
+          title="Tailored for Your Lifestyle"
+          body="Our solutions are flexible and customizable to fit your unique preferences. Whether you prioritize energy savings, security, or convenience, Homify can be adapted to meet your exact needs"
+        />
+        <DifferenceCard
+          title="Innovation that Grows with You"
+          body="Future-proof your home with Homify's scalable and upgradable systems. As technology evolves, your smart home setup can evolve too&mdash;ensuring you're always ahead of the curve"
+        />
       </section>
       <section id="the_numbers" className="px-10 py-[6rem]">
         <h2 className="text-5xl text-center font-bold md:max-w-[23rem] mx-auto mb-[0.5em]">
@@ -45,11 +58,12 @@ function App() {
         <section className="">
           <h2 className="text-5xl font-bold md:max-w-[27rem] mb-[0.5em]"><span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Smart</span> Control, One Tap Away</h2>
           <p className="text-sm max-w-sm mb-[1em]">Manage your entire smart home from one intuitive app whether it's adjusting the lights, setting the temperature, or checking security cameras, Homify puts complete control of your home in the palm of your hand.</p>
-          <Button link="" label="Manage Your Home"></Button>
+          <Button link="" label="Manage Your Home" color="text-white" bgColor="bg-black"></Button>
         </section>
       </section>
-      <section>
-        <h2>Plans</h2>
+      <section id="plans" className="px-10 py-[6rem]">
+        <h2 className="text-6xl text-center font-bold"><span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Plans</span></h2>
+        <Pricing />
       </section>
     </>
   )
