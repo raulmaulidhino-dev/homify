@@ -17,7 +17,7 @@ const Header = () => {
                 <img src={ Logo } alt="Homify Logo" className="transform scale-85"/>
             </div>
             <Nav navItems={ navItems } />
-            <Button label="LOGIN" link="#login" />
+            <Button label="LOGIN" link="#login" color="text-black" bgColor="bg-gray-2" />
         </header>
     );
 };
