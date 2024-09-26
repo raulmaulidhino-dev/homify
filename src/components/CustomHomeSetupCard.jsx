@@ -13,7 +13,7 @@ const CustomHomeSetupCard = () => {
                 <section>
                     <h3 className="text-3xl font-bold mb-2">Custom Home Setup</h3>
                     <p>
-                        Tailor your smart home experience with personalized advce, professional insatllation, and custom automation settings. Whether you want energy efficiency, enhanced security, orseamlessautomation, we'll help you design the perfect system for your home
+                        Tailor your smart home experience with personalized advce, professional insatllation, and custom automation settings. Whether you want energy efficiency, enhanced security, or seamless automation, we'll help you design the perfect system for your home
                     </p>
                 </section>
                 <section className="grow flex justify-center items-center">
