@@ -1,10 +1,12 @@
 import './App.css'
+import Button from './components/Button.jsx'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import DifferenceCard from './components/DifferenceCard.jsx'
 import NumbersCard from './components/NumbersCard.jsx'
 
 import Section1_Image from './assets/section-1.png'
+import Manage_Your_Home_Image from './assets/manage_your_home.png'
 
 function App() {
   return (
@@ -38,9 +40,16 @@ function App() {
           <NumbersCard number="$50K" description="saved in energy costs by one Homify customer over 3 years using our automation and energy management solutions." />
         </section>
       </section>
-      <section id="manage_your_home" className="m">
-        <img />
-        <p></p>
+      <section id="manage_your_home" className="w-full px-10 py-[6rem] flex flex-wrap justify-center items-center content-center gap-4">
+        <img src={ Manage_Your_Home_Image } alt="Internet Home Illustration" className="max-w-lg inline-block" />
+        <section className="">
+          <h2 className="text-5xl font-bold md:max-w-[27rem] mb-[0.5em]"><span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Smart</span> Control, One Tap Away</h2>
+          <p className="text-sm max-w-sm mb-[1em]">Manage your entire smart home from one intuitive app whether it's adjusting the lights, setting the temperature, or checking security cameras, Homify puts complete control of your home in the palm of your hand.</p>
+          <Button link="" label="Manage Your Home"></Button>
+        </section>
+      </section>
+      <section>
+        <h2>Plans</h2>
       </section>
     </>
   )
