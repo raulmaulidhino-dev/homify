@@ -5,6 +5,7 @@ import Hero from './components/Hero.jsx'
 import DifferenceCard from './components/DifferenceCard.jsx'
 import NumbersCard from './components/NumbersCard.jsx'
 import Pricing from './components/Pricing.jsx'
+import FAQ from './components/FAQ.jsx'
 
 import Section1_Image from './assets/section-1.png'
 import Manage_Your_Home_Image from './assets/manage_your_home.png'
@@ -65,6 +66,7 @@ function App() {
         <h2 className="text-6xl text-center font-bold"><span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Plans</span></h2>
         <Pricing />
       </section>
+      <FAQ />
     </>
   )
 }
