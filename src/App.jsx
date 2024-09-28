@@ -7,6 +7,7 @@ import NumbersCard from './components/NumbersCard.jsx'
 import Pricing from './components/Pricing.jsx'
 import FAQ from './components/FAQ.jsx'
 import TrustBox from './components/TrustBox.jsx'
+import Testimony from './components/Testimony.jsx'
 
 import Section1_Image from './assets/section-1.png'
 import Manage_Your_Home_Image from './assets/manage_your_home.png'
@@ -71,6 +72,7 @@ function App() {
       <section id="trust_box" className="w-full px-10 py-[6rem]">
         <TrustBox />
       </section>
+      <Testimony />
     </>
   )
 }
