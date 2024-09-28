@@ -1,4 +1,4 @@
-import AdvantageCard from "./components/AdvantageCard.jsx"
+import AdvantageCard from "./AdvantageCard.jsx"
 
 const AdvantageCards = () => {
     return (
