@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import service from '../assets/service.png';
-import check from '../assets/icons/check-icon.png';
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import service from "../assets/service.png";
+import check from "../assets/icons/check-icon.png";
 
 const Services = () => {
     const [isModalOpen, setModalOpen] = useState(false);
@@ -23,7 +23,7 @@ const Services = () => {
     };
 
     const handleBackToHome = () => {
-        navigate('/'); 
+        navigate("/"); 
     };
 
     return (
@@ -31,7 +31,7 @@ const Services = () => {
         <div className="flex flex-col md:flex-row w-full font-poppins py-[6rem] px-10">
             <div className="w-full md:w-1/2 flex flex-col justify-center">
                 <h1 className="font-extrabold text-5xl text-center md:text-left md:text-5xl mb-4">24/7 Technical Support And <span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Consulting</span></h1>
-                <ul className='pt-5 text-xl md:text-lg space-y-4'>
+                <ul className="pt-5 text-xl md:text-lg space-y-4">
                     <li className="flex items-center">
                         <img src={check} alt="Check icon" className="inline w-6 h-6 mr-3" />
                         Get expert consultation and technical support via email anytime, day or night.
@@ -143,13 +143,13 @@ const Services = () => {
                     <div className="relative p-4 w-full max-w-lg bg-white rounded-lg shadow" onClick={e => e.stopPropagation()}>
                         <div className="flex items-center justify-between p-4 rounded-t">
                             
-                            <div className='justify-center text-center'>
+                            <div className="justify-center text-center">
                                 <h1 className="md:text-6xl text-4xl font-extrabold text-gray-900 ">Thank You!!</h1>
-                                <p className='text-xl pt-2'>Your request has been received. Our expert team will reach out to you shortly with personalized support.</p>
+                                <p className="text-xl pt-2">Your request has been received. Our expert team will reach out to you shortly with personalized support.</p>
                             </div>
 
                         </div>
-                        <div className='items-center justify-center text-center'>
+                        <div className="items-center justify-center text-center">
                             <button
                                 type="button"
                                 className="text-white bg-black px-10 py-2 rounded-lg text-xl"

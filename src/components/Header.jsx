@@ -1,6 +1,6 @@
-import Logo from '../assets/homify-logo.png'
-import Nav from './Nav.jsx'
-import Button from './Button.jsx'
+import Logo from "../assets/homify-logo.png"
+import Nav from "./Nav.jsx"
+import Button from "./Button.jsx"
 
 const Header = () => {
 

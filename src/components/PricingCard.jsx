@@ -5,8 +5,7 @@ const PricingCard = ({
     subtitle = "Subtitle",
     price = "0",
     save = "0",
-    features = [
-    ],
+    features = [],
 }) => {
     return (
         <section className="rounded-[14px] p-8 pr-1/3 border-2 shadow-xl shadow-slate-300 relative grow flex flex-col gap-6">

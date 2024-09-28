@@ -1,4 +1,4 @@
-import logo from '../assets/homify-logo.png';
+import Logo from "../assets/homify-logo.png";
 
 const Footer = () => {
     return (
@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       
           <div className="order-1 md:order-1">
-              <img src={logo} alt="FAHost" className="h-16" />
+              <img src={ Logo } alt="Homify Logo" className="h-16" />
               <p className="text-sm text-gray-600">
               Homify is a smart home company that provides innovative automation solutions for home security, energy efficiency, and convenience, making everyday living easier and more connected.
               </p>

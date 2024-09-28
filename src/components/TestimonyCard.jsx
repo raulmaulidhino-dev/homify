@@ -3,9 +3,9 @@ import StarIcon from "../assets/icons/testimony-star.png"
 
 const TestimonyCard = ({
     CustomerPFP = DefaultPFP,
-    CustomerName = 'John Doe',
-    CustomerUsername = 'johndoe',
-    Testimony = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, nunc vel bibendum iaculis, justo ipsum semper lectus, vitae tincidunt neque urna sit amet diam.'
+    CustomerName = "John Doe",
+    CustomerUsername = "johndoe",
+    Testimony = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, nunc vel bibendum iaculis, justo ipsum semper lectus, vitae tincidunt neque urna sit amet diam."
 }) => {
     return (
         <section className="w-[24rem] min-w-[24rem] aspect-square border-4 rounded-[14px] p-8 flex flex-col gap-2 shadow-xl shadow-slate-300">

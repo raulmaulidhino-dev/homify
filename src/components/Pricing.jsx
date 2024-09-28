@@ -1,5 +1,5 @@
-import PricingCard from "./PricingCard"
-import CustomHomeSetupCard from "./CustomHomeSetupCard"
+import PricingCard from "./PricingCard.jsx"
+import CustomHomeSetupCard from "./CustomHomeSetupCard.jsx"
 
 const plan1Features = [
     "Unlimited device control",
