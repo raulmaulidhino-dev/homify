@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useState } from "react"
 
-const FAQAccordion = ({question="Question?", answer="Answer is ..."}) => {
+import ArrowDownIcon from "../assets/icons/arrow-down-icon.png"
+
+const FAQ_Accordion = ({question="Question?", answer="Answer is ..."}) => {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -10,13 +12,13 @@ const FAQAccordion = ({question="Question?", answer="Answer is ..."}) => {
 
     return (
         <section>
-            <section className="question border-2 rounded-[14px] p-6 flex justify-between items-center shadow-lg shadow-slate-300">
-                <section className="question-text font-bold">
+            <section className="question border-2 rounded-[14px] p-6 flex justify-between items-center gap-4 shadow-lg shadow-slate-300">
+                <section className="mr-auto question-text font-bold">
                     { question }
                 </section>
-                <div onClick={ toggleAccordion }>
+                <div onClick={ toggleAccordion } className="shrink-0 w-8 ml-auto my-auto">
                     <img 
-                        src="/icons/arrow-icon.png"
+                        src={ ArrowDownIcon }
                         className={`transform transition-transform ${isOpen ? 'rotate-180' : ''}`}
                     />
                 </div>
@@ -28,4 +30,4 @@ const FAQAccordion = ({question="Question?", answer="Answer is ..."}) => {
     )
 }
 
-export default FAQAccordion
+export default FAQ_Accordion
