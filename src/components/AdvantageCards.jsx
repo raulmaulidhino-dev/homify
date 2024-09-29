@@ -7,7 +7,7 @@ import { FaHome } from "react-icons/fa"
 
 const AdvantageCards = () => {
     return (
-        <section id="difference_cards" className="px-10 py-8 grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-4">
+        <section id="advantage_cards" className="px-10 pb-8 pt-2 grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-4">
         <AdvantageCard
           Icon={ FaSeedling }
           title="Comprehensive Smart Home" 
