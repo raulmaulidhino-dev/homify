@@ -1,6 +1,5 @@
 import Logo from "../assets/homify-logo.png"
 import Nav from "./Nav.jsx"
-import Button from "./Button.jsx"
 
 import { GoHome } from "react-icons/go"
 import { IoCartOutline } from "react-icons/io5"
