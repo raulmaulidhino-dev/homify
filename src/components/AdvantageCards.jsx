@@ -10,13 +10,13 @@ const AdvantageCards = () => {
         <section id="difference_cards" className="px-10 py-8 grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-4">
         <AdvantageCard
           Icon={ FaSeedling }
-          title="Comprehensive Smart Home Solutions" 
+          title="Comprehensive Smart Home" 
           body="Homify provides a wide array of smart devices that work together seamlessly to create a fully automated home. From smart lights to security systems, everything is designed to work in harmony" 
         />
         <AdvantageCard
           Icon={ FiSettings }
           title="User-Friendly Experience"
-          body="No need to be tech-savvy! Ourr platform is designed with simplicity in mind. Easily control all your devices through a single app, accessible anytime and anywhere" 
+          body="No need to be tech-savvy! Our platform is designed with simplicity in mind. Easily control all your devices through a single app, accessible anytime and anywhere" 
         />
         <AdvantageCard
           Icon={ FaMobileAlt }
