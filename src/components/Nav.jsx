@@ -17,10 +17,10 @@ const Nav = ({
     }, []);
 
     return (
-        <nav className="mx-auto md:space-around basis-full md:basis-1/2">
-            <ul className="flex justify-around items-center">
+        <nav>
+            <ul className="flex items-center gap-8">
                 {navItems.map((item, index) => (
-                    <li key={index}>
+                    <li key={index} className="font-semibold">
                         <a href={ item.link }>
                             { isMobile ? item.icon : item.label }
                         </a>
