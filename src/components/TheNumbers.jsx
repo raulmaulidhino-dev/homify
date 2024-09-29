@@ -3,7 +3,7 @@ import NumbersCard from "./NumbersCard.jsx"
 const TheNumbers = () => {
     return (
         <section id="the_numbers" className="px-10 py-[6rem]">
-            <h2 className="text-5xl text-center font-bold md:max-w-[23rem] mx-auto mb-[0.5em]">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold mx-auto mb-[0.5em]">
             The Numbers say it all.
             </h2>
             <p className="text-sm text-center max-w-sm mx-auto">Homify efficiently transforms your home with smart solutions for any lifestyle and budget.</p>

@@ -9,7 +9,7 @@ const PricingCard = ({
 }) => {
     return (
         <section className="rounded-[14px] p-8 pr-1/3 border-2 shadow-xl shadow-slate-300 relative grow flex flex-col gap-6">
-            <h3 className="text-3xl font-bold mb-2">{ title }</h3>
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">{ title }</h3>
             <p>{ subtitle }</p>
             <div className="text-white text-center text-sm font-bold bg-gradient-to-r from-purple-900 to-black rounded-[25px] p-2 w-1/3 max-w-[7rem] absolute right-[-1rem] top-[-1rem]">SAVE ${ save }</div>
             <div className="text-5xl font-bold bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">${ price }</div>
@@ -18,15 +18,18 @@ const PricingCard = ({
                     <li
                         key={index}
                         className="
-                            flex items-center gap-2
+                            text-sm
+                            flex items-center
                             before:content-['']
                             before:inline-block
                             before:w-4 before:h-4
+                            before:mr-2
                             before:bg-[url('/icons/check-icon.png')]
                             before:bg-cover
+                            before:shrink-0
                         "
                     >
-                        { feature }
+                        <span>{ feature }</span>
                     </li>
                 ))}
             </ul>

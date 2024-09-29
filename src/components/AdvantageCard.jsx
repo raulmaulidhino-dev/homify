@@ -12,7 +12,7 @@ const AdvantageCard = ({
                     marginLeft: "auto",
                 }}/>}
             </div>
-            <h3 className="text-3xl text-center font-bold my-[0.5em]">{ title }</h3>
+            <h3 className="text-xl sm:text-2xl md:text-3xl text-center font-bold my-[0.5em]">{ title }</h3>
             <p className="text-sm">{ body }</p>
         </article>
     )

@@ -15,7 +15,7 @@ const Testimony = () => {
             PFP: PFP1,
             name: "River Thompson",
             username: "riverthompson",
-            testimony: "The smart home system from Homify has transformed the way we manage our home. The devices are reliable, adn everything runs smoothly. Their support team is always quick to help with any questions."
+            testimony: "The smart home system from Homify has transformed the way we manage our home. The devices are reliable, and everything runs smoothly. Their support team is always quick to help with any questions."
         },
         {
             PFP: PFP2,
@@ -27,7 +27,7 @@ const Testimony = () => {
             PFP: PFP3,
             name: "Emily Johnson",
             username: "emilyjohnson",
-            testimony: "Homify\"s smart security solutions give us peace of mind. The cameras and automation features work flawlessly, and their customer service is always ready to assist. We feel safe and secure using Homify.",
+            testimony: "Homify\'s smart security solutions give us peace of mind. The cameras and automation features work flawlessly, and their customer service is always ready to assist. We feel safe and secure using Homify.",
         },
         {
             PFP: PFP4,
@@ -45,16 +45,16 @@ const Testimony = () => {
             PFP: PFP6,
             name: "James Brown",
             username: "jamesbrown",
-            testimony: "Homify\"s automation system has simplified our daily routines. We can set schedules for lighting, heating, and even security. Their team is responsive and always ready to hep with any issues. We could\"nt be happier with the service.",
+            testimony: "Homify\'s automation system has simplified our daily routines. We can set schedules for lighting, heating, and even security. Their team is responsive and always ready to hep with any issues. We could\"nt be happier with the service.",
         },
     ];
 
     return (
-        <section className="px-10 py-[6rem] overflow-x-auto scroll-smooth">
-            <h3 className="text-4xl font-bold text-center max-w-[35ch] mx-auto mb-[1em]">
+        <section className="px-5 sm:px-10 py-[6rem] overflow-x-auto scroll-smooth">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl px-5 sm:px-0 font-bold md:text-center max-w-[35ch] mx-auto mb-[1em]">
                 What customers are saying about Homify, the leading smart home solution since 2010
-            </h3>
-            <section className="flex items-center gap-8 px-4 py-8 overflow-x-auto">
+            </h2>
+            <section className="flex items-center gap-8 px-2 sm:px-4 py-8 overflow-x-auto">
                 {customers.map((customer, index) => (
                     <TestimonyCard
                         key={index}

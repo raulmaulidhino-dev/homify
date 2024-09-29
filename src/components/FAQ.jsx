@@ -3,8 +3,8 @@ import FAQ_Accordion from "./FAQ_Accordion.jsx"
 const FAQ = () => {
     return (
         <section id="faq" className="w-full px-10 py-[6rem]">
-            <h2 className="text-5xl font-bold text-center mb-[0.5em]">FAQ</h2>
-            <p className="text-lg text-center mx-auto max-w-[25ch] mb-[1em]">Questions about Smart Home and Homify Services</p>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[0.5em]">FAQ</h2>
+            <p className="text-sm text-center mx-auto max-w-[25ch] mb-[1em]">Questions about Smart Home and Homify Services</p>
             <section className="flex flex-col gap-4">
                 <FAQ_Accordion
                     question="Why should I choose Homify for my smart home needs?"

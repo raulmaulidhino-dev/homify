@@ -1,20 +1,19 @@
 import LightBulb from "../assets/light-bulb.png";
 import CCTV from "../assets/cctv.png";
 
-const Cher = () => {
+const Voucher = () => {
     return (
-        <div className="font-poppins flex justify-center items-center mt-24 relative">
-            <img className="md:w-24 w-12 absolute top-[-1.5rem] md:left-[11rem] left-[-0.2rem] z-30" src={ CCTV } alt="cctv" />
-            <img className="md:w-20 w-10 absolute bottom-[-1.5rem] md:right-[12rem] right-[-0.2rem] z-30" src={ LightBulb } alt="lampu" />
-            
-            <div className="bg-gradient-to-r from-black to-purple-950 via-black bg-black bg-opacity-90 md:py-10 md:px-32 py-3 px-7 rounded-2xl inline-block">
-                <div className="text-center">
-                    <h1 className="md:text-4xl text-1xl text-white font-extrabold">Enjoy $5 Off Your Purchase! Use Code</h1>
-                    <h2 className="md:text-4xl text-1xl text-white font-extrabold">“HOMIFYGOOD123”</h2>
+        <section className="font-poppins flex justify-center items-center mt-24 h-[20rem]">
+            <div className="bg-gradient-to-r from-black to-purple-950 via-black bg-black bg-opacity-90 md:py-10 md:px-16 py-2 px- md:rounded-2xl relative w-dvw h-full md:w-fit md:h-fit flex flex-col justify-center items-center">
+                <div className="text-center w-[80%] mx-auto md:w-auto">
+                    <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white font-bold">Enjoy $5 Off Your Purchase! Use Code</h3>
+                    <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white font-bold">“HOMIFYGOOD123”</h3>
                 </div>
+                <img className="w-24 absolute top-[-2rem] left-[2rem] md:left-[-2rem] z-30" src={ CCTV } alt="CCTV" />
+                <img className="w-20 absolute bottom-[-2rem] right-[2rem] md:right-[-2rem] z-30" src={ LightBulb } alt="Light Bulb" />
             </div>
-        </div>
+      </section>
     );
 };
 
-export default Cher;
+export default Voucher

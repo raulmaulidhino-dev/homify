@@ -32,7 +32,7 @@ const plan3Features = [
 const Pricing = () => {
     return (
         <>
-            <section id="normal_pricing" className="p-10 grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-y-10 gap-x-8">
+            <section id="normal_pricing" className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-y-10 gap-x-8">
                 <PricingCard
                     title="Smart Lighting System"
                     subtitle="Automate lighting with remote  control, brightness adjustment and scheduling"
@@ -52,7 +52,7 @@ const Pricing = () => {
                     features={ plan3Features }
                 />
             </section>
-            <section id="custom_pricing" className="p-10">
+            <section id="custom_pricing" className="mt-10">
                 <CustomHomeSetupCard />
             </section>
         </>
