@@ -23,7 +23,7 @@ const FAQ_Accordion = ({question="Question?", answer="Answer is ..."}) => {
                     />
                 </div>
             </section>
-            <section className={`text-sm p-4 bg-white border-t border-gray-300 ${isOpen ? 'block' : 'hidden'}`}>
+            <section className={`text-sm p-4 mt-[15px] bg-white ${isOpen ? 'block' : 'hidden'}`}>
                 { answer }
             </section>
         </section>
