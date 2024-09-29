@@ -10,7 +10,7 @@ const ManageYourHome = () => {
             <section>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold sm:max-w-[27rem] mb-[0.5em]"><span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Smart</span> Control, One Tap Away</h2>
                 <p className="text-sm sm:text-md md:text-lg lg:text-xl max-w-sm mb-[1em]">Manage your entire smart home from one intuitive app whether it&rsquo;s adjusting the lights, setting the temperature, or checking security cameras, Homify puts complete control of your home in the palm of your hand</p>
-                <Button link="" label="Manage Your Home" color="text-white" bgColor="bg-black"></Button>
+                <Button link="#plans" label="Manage Your Home" color="text-white" bgColor="bg-black"></Button>
             </section>
         </section>
     )

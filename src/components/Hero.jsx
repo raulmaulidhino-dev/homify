@@ -10,7 +10,7 @@ const Hero = () => {
                 <img className="w-20 absolute bottom-[-3rem] right-[-3rem] z-30 hidden md:block" src={ LightBulb } alt="Light Bulb" />
             </h1>
             <p className="sm:mx-auto mb-5 text-sm md:text-lg lg:text-xl text-gray-3 sm:text-center max-w-lg">Automate your home effortlessly with seamless integration and no tech skills needed</p>
-            <a href="" className="w-fit mx-auto px-4 py-2 sm:px-10 sm:py-4 rounded-[35px] text-center text-white text-sm lg:text-lg font-bold bg-black block">
+            <a href="#plans" className="w-fit mx-auto px-4 py-2 sm:px-10 sm:py-4 rounded-[35px] text-center text-white text-sm lg:text-lg font-bold bg-black block">
                 Upgrade Your Home
             </a>
         </section>
