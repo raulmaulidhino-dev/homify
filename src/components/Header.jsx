@@ -23,7 +23,7 @@ const Header = () => {
                     <img src={ Logo } alt="Homify Logo" className="transform"/>
                 </div>
             </header>
-            <header className="bg-white m-8 py-4 px-7 border-4 rounded-[10px] shadow-xl fixed right-0 left-0 bottom-0 z-[100] md:relative flex justify-between items-center">
+            <header className="bg-white m-8 py-4 px-7 border-4 rounded-[10px] shadow-xl fixed right-0 left-0 bottom-0 z-50 md:relative flex justify-between items-center">
                 <div className="logo max-w-48 hidden md:block">
                     <img src={ Logo } alt="Homify Logo" className="transform"/>
                 </div>

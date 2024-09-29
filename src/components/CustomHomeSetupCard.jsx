@@ -56,7 +56,7 @@ const CustomHomeSetupCard = () => {
                         {customHomeSetupFeatures.map((feature, index) => (
                             <li
                                 key={index}
-                                className="flex items-center gap-2 before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[url('/icons/check-icon.png')] before:bg-cover"
+                                className="flex items-center gap-2 before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[url('/icons/check-icon.png')] before:bg-cover before:shrink-0"
                             >
                                 {feature}
                             </li>
@@ -76,11 +76,11 @@ const CustomHomeSetupCard = () => {
             {/* Modal for the form */}
             {isModalOpen && (
                 <div
-                    className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden px-2"
+                    className="fixed inset-0 z-[100] flex items-center justify-center overflow-hidden px-2"
                     onClick={toggleModal}
                 >
                     <div className="absolute inset-0 bg-black opacity-50"></div>
-                    <div className="relative p-4 w-full max-w-md md:max-w-lg bg-white rounded-lg shadow-lg z-50" onClick={e => e.stopPropagation()}>
+                    <div className="relative p-4 w-full max-w-md md:max-w-lg bg-white rounded-lg shadow-lg z-[100]" onClick={e => e.stopPropagation()}>
                         <div className="flex items-center justify-between p-4 border-b rounded-t">
                             <h3 className="text-xl font-semibold text-gray-900">Purchase Custom Home Setup</h3>
                             <button
@@ -183,7 +183,7 @@ const CustomHomeSetupCard = () => {
             {/* Thank You Modal */}
             {isThankYouOpen && (
                 <div
-                    className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden px-2"
+                    className="fixed inset-0 z-[100] flex items-center justify-center overflow-hidden px-2"
                     onClick={closeThankYouModal}
                 >
                     <div className="absolute inset-0 bg-black opacity-50"></div>

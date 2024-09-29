@@ -131,7 +131,7 @@ const Services = () => {
                 {/* Thank You Modal */}
                 {isThankYouOpen && (
                     <div
-                        className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden px-2"
+                        className="fixed inset-0 z-[100] flex items-center justify-center overflow-hidden px-2"
                         onClick={closeThankYouModal}
                     >
                         <div className="absolute inset-0 bg-black opacity-50"></div>
