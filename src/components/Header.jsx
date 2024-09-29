@@ -9,10 +9,10 @@ import { GoNote } from "react-icons/go"
 const Header = () => {
 
     const navItems = [
-        {label:"Home", icon: <GoHome size="30" />, link:""},
-        {label:"Products", icon:<IoCartOutline size="30" />, link:""},
-        {label:"Solutions", icon:<GoCheckCircle size="30" />, link:""},
-        {label:"Blog", icon: <GoNote size="30" />, link:""},
+        {label:"Home", icon: <GoHome size="30" />, link:"#"},
+        {label:"Products", icon:<IoCartOutline size="30" />, link:"#plans"},
+        {label:"Solutions", icon:<GoCheckCircle size="30" />, link:"#faq"},
+        {label:"Blog", icon: <GoNote size="30" />, link:"#discover"},
     ];
 
     return (
