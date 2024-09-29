@@ -21,6 +21,16 @@ const CustomHomeSetupCard = () => {
         setIsModalOpen(!isModalOpen);
     };
 
+    const clearInputValues = () => {
+        setFormData({
+            fullName: "",
+            email: "",
+            phoneNumber: "",
+            address: "",
+            installationDate: "",
+        });
+    };
+
     const handleFormSubmit = (e) => {
         e.preventDefault();
         setIsModalOpen(false);
@@ -37,6 +47,7 @@ const CustomHomeSetupCard = () => {
 
     const closeThankYouModal = () => {
         setIsThankYouOpen(false);
+        clearInputValues();
     };
 
     return (
@@ -201,7 +212,7 @@ const CustomHomeSetupCard = () => {
                                 <li><strong>Home Address:</strong> {formData.address}</li>
                                 <li><strong>Installation Date:</strong> {formData.installationDate}</li>
                             </ul>
-                            <p className="mt-4 text-sm text-center text-gray-600">
+                            <p className="mt-4 text-sm text-center text-gray-600 font-semibold">
                             Our Homify team will reach out to you 24/7 for further confirmation and payment processing.
                             </p>
                             <button

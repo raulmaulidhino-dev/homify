@@ -21,6 +21,16 @@ const PricingCard = ({
         setIsModalOpen(!isModalOpen);
     };
 
+    const clearInputValues = () => {
+        setFormData({
+            fullName: "",
+            email: "",
+            phoneNumber: "",
+            address: "",
+            installationDate: "",
+        });
+    };
+
     const handleFormSubmit = (e) => {
         e.preventDefault();
         setIsModalOpen(false); 
@@ -37,6 +47,7 @@ const PricingCard = ({
 
     const closeThankYouModal = () => {
         setIsThankYouOpen(false);
+        clearInputValues();
     };
 
     return (
