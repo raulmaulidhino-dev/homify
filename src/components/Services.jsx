@@ -151,7 +151,7 @@ const Services = () => {
                                     className="text-white bg-black px-10 py-2 rounded-lg text-base"
                                     onClick={closeThankYouModal}
                                     >
-                                    Back
+                                    Close
                                 </button>
                             </div>
                         </div>
