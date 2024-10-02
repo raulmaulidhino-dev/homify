@@ -1,11 +1,11 @@
 import TestimonyCard from "./TestimonyCard.jsx"
 
-import PFP1 from "../assets/pfp-1.png"
-import PFP2 from "../assets/pfp-2.png"
-import PFP3 from "../assets/pfp-3.png"
-import PFP4 from "../assets/pfp-4.png"
-import PFP5 from "../assets/pfp-5.png"
-import PFP6 from "../assets/pfp-6.png"
+import PFP1 from "../assets/pfp-1.webp"
+import PFP2 from "../assets/pfp-2.webp"
+import PFP3 from "../assets/pfp-3.webp"
+import PFP4 from "../assets/pfp-4.webp"
+import PFP5 from "../assets/pfp-5.webp"
+import PFP6 from "../assets/pfp-6.webp"
 
 
 const Testimony = () => {

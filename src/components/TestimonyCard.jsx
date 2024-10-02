@@ -1,5 +1,5 @@
-import DefaultPFP from "../assets/default-pfp.png"
-import StarIcon from "../assets/icons/testimony-star.png"
+import DefaultPFP from "../assets/default-pfp.webp"
+import StarIcon from "../assets/icons/testimony-star.webp"
 
 const TestimonyCard = ({
     CustomerPFP = DefaultPFP,

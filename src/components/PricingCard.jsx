@@ -61,7 +61,7 @@ const PricingCard = ({
                     {features.map((feature, index) => (
                         <li
                             key={index}
-                            className="flex items-center gap-2 before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[url('/icons/check-icon.png')] before:bg-cover before:shrink-0"
+                            className="flex items-center gap-2 before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[url('/icons/check-icon.webp')] before:bg-cover before:shrink-0"
                         >
                             {feature}
                         </li>

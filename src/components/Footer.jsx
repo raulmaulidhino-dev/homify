@@ -1,4 +1,4 @@
-import Logo from "../assets/homify-logo.png";
+import Logo from "../assets/homify-logo.webp";
 
 const Footer = () => {
     return (

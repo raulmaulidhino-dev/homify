@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import service from "../assets/service.png";
-import check from "../assets/icons/check-icon.png";
+import service from "../assets/service.webp";
+import check from "../assets/icons/check-icon.webp";
 
 const Services = () => {
     const [isModalOpen, setModalOpen] = useState(false);

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import ArrowDownIcon from "../assets/icons/arrow-down-icon.png"
+import ArrowDownIcon from "../assets/icons/arrow-down-icon.webp"
 
 const FAQ_Accordion = ({question="Question?", answer="Answer is ..."}) => {
 

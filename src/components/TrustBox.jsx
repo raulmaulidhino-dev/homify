@@ -1,4 +1,4 @@
-import TrustBoxBackground from "../assets/trust-box-background.png"
+import TrustBoxBackground from "../assets/trust-box-background.webp"
 
 const TrustBox = () => {
     return (

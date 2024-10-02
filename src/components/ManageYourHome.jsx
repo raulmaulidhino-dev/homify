@@ -1,6 +1,6 @@
 import Button from "./Button.jsx"
 
-import ManageYourHomeImage from "../assets/manage-your-home-img.png"
+import ManageYourHomeImage from "../assets/manage-your-home-img.webp"
 
 
 const ManageYourHome = () => {

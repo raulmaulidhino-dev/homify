@@ -1,5 +1,5 @@
-import LightBulb from "../assets/light-bulb.png";
-import CCTV from "../assets/cctv.png";
+import LightBulb from "../assets/light-bulb.webp";
+import CCTV from "../assets/cctv.webp";
 
 const Voucher = () => {
     return (

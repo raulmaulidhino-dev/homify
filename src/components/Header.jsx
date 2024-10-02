@@ -1,4 +1,4 @@
-import Logo from "../assets/homify-logo.png"
+import Logo from "../assets/homify-logo.webp"
 import Nav from "./Nav.jsx"
 
 import { GoHome } from "react-icons/go"
