@@ -30,24 +30,24 @@ const Services = () => {
         <section>
             <div className="flex flex-row flex-wrap content-around justify-around w-full font-poppins py-[3rem] px-10">
                 <section className="w-full md:w-1/2 flex flex-col justify-center">
-                    <h2 className="font-extrabold text-3xl sm:text-4xl md:text-5xl text-center md:text-left mb-4">24/7 Technical Support And <span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Consulting</span></h2>
+                    <h2 className="font-extrabold text-3xl sm:text-4xl md:text-5xl text-center md:text-left mb-4" data-aos="zoom-in">24/7 Technical Support And <span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Consulting</span></h2>
                     <ul className="pt-5 text-sm md:text-base space-y-4">
-                        <li className="flex items-center">
+                        <li className="flex items-center" data-aos="fade-right">
                             <img src={check} alt="Check icon" className="inline w-6 h-6 mr-3" />
                             Get expert consultation and technical support via email anytime, day or night.
                         </li>
-                        <li className="flex items-center">
+                        <li className="flex items-center" data-aos="fade-right">
                             <img src={check} alt="Check icon" className="inline w-6 h-6 mr-3" />
                             Assistance available in multiple languages to ensure clear communication.
                         </li>
-                        <li className="flex items-center">
+                        <li className="flex items-center" data-aos="fade-right">
                             <img src={check} alt="Check icon" className="inline w-6 h-6 mr-3" />
                             Fast and efficient! Receive personalized solutions in less than 2 minutes.
                         </li>
                     </ul>
                     {/* Button Container */}
                 </section>
-                <img src={service} alt="Service" className="w-full max-w-lg" />
+                <img src={service} alt="Service" className="w-full max-w-lg" data-aos="fade-down" />
                 
                 {/* Modal for asking questions */}
                 {isModalOpen && (
@@ -162,6 +162,7 @@ const Services = () => {
                 <button
                     onClick={toggleModal}
                     className="text-white bg-black hover:bg-purple-800 transition duration-300 ease-in-out transform hover:scale-105 focus:ring-4 focus:ring-purple-300 text-base sm:text-md md:text-lg lg:text-xl rounded-2xl font-semibold px-10 py-2.5"
+                    data-aos="zoom-in"
                 >
                     Get Expert Advice
                 </button>

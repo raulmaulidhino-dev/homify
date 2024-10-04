@@ -2,7 +2,7 @@ import NumbersCard from "./NumbersCard.jsx"
 
 const TheNumbers = () => {
     return (
-        <section id="the_numbers" className="px-10 py-[6rem]" data-aos="fade-down">
+        <section id="the_numbers" className="px-10 py-[6rem]">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold mx-auto mb-[0.5em]" data-aos="zoom-in">
             The <span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Numbers</span> say it all
             </h2>

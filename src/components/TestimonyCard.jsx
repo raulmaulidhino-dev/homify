@@ -8,7 +8,7 @@ const TestimonyCard = ({
     Testimony = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, nunc vel bibendum iaculis, justo ipsum semper lectus, vitae tincidunt neque urna sit amet diam."
 }) => {
     return (
-        <section className="min-w-[19rem] w-[19rem] md:w-[24rem] max-w-[24rem] aspect-square border-4 rounded-[14px] p-8 shrink-0 flex flex-col gap-2 shadow-xl shadow-slate-300">
+        <section className="min-w-[19rem] w-[19rem] md:w-[24rem] max-w-[24rem] aspect-square border-4 rounded-[14px] p-8 shrink-0 flex flex-col gap-2 shadow-xl shadow-slate-300" data-aos="fade-right">
             <section className="flex items-center">
                 <img src={ CustomerPFP } alt="Customer Testimonial" className="w-1/4 aspect-square object-cover scale-[0.75]" />
                 <div className="py-6">

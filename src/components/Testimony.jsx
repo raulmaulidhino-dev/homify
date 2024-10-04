@@ -51,7 +51,7 @@ const Testimony = () => {
 
     return (
         <section className="px-5 sm:px-10 py-[6rem] overflow-x-auto scroll-smooth">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl px-5 sm:px-0 font-bold md:text-center max-w-[35ch] mx-auto mb-[1em]">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl px-5 sm:px-0 font-bold md:text-center max-w-[35ch] mx-auto mb-[1em]" data-aos="zoom-in">
                 What customers are saying about Homify, the leading smart home solution since 2010
             </h2>
             <section className="flex items-center gap-8 px-2 sm:px-4 py-8 overflow-x-auto">
