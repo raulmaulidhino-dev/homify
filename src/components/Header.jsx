@@ -17,7 +17,7 @@ const Header = () => {
 
     return (
         <>
-            <header className="w-full pt-8 pb-4 md:hidden shadow-lg shadow-slate-300">
+            <header className="w-full pt-8 pb-4 md:hidden shadow-lg shadow-slate-300" data-aos="fade-down">
                 <div className="logo max-w-48 mx-auto">
                     <img src={ Logo } alt="Homify Logo" className="transform"/>
                 </div>

@@ -13,7 +13,18 @@ import Services from "./components/Services.jsx"
 import Voucher from "./components/Voucher.jsx"
 import Footer from "./components/Footer.jsx"
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react"
+
 function App() {
+  {/* Initialize AOS Package */}
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <>
       <Header />

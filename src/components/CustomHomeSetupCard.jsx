@@ -52,7 +52,7 @@ const CustomHomeSetupCard = () => {
 
     return (
         <>
-            <section className="rounded-[14px] p-8 pr-1/3 border-2 shadow-xl shadow-slate-300 relative grow flex flex-col gap-6">
+            <section className="rounded-[14px] p-8 pr-1/3 border-2 shadow-xl shadow-slate-300 relative grow flex flex-col gap-6" data-aos="fade-right">
                 <section className="flex flex-wrap content-center gap-6">
                     <section>
                         <h3 className="text-3xl font-bold mb-2">Custom Home Setup</h3>

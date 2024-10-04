@@ -52,7 +52,7 @@ const PricingCard = ({
 
     return (
         <>
-            <section className="rounded-[14px] p-8 pr-1/3 border-2 shadow-xl shadow-slate-300 relative grow flex flex-col gap-6">
+            <section className="rounded-[14px] p-8 pr-1/3 border-2 shadow-xl shadow-slate-300 relative grow flex flex-col gap-6" data-aos="fade-down">
                 <h3 className="text-3xl font-bold mb-2">{title}</h3>
                 <p>{subtitle}</p>
                 <div className="text-white text-center text-sm font-bold bg-gradient-to-r from-purple-900 to-black rounded-[25px] p-2 w-1/3 max-w-[7rem] absolute right-[-1rem] top-[-1rem]">SAVE ${save}</div>

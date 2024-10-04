@@ -4,7 +4,7 @@ const AdvantageCard = ({
     body = "Body" 
 }) => {
     return (
-        <article className="p-4">
+        <article className="p-4" data-aos="fade-up" data-aos-duration="2000">
             <div className="mx-auto">
                 { Icon && 
                 <Icon size={50} style={{

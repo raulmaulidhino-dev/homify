@@ -11,7 +11,7 @@ const FAQ_Accordion = ({question="Question?", answer="Answer is ..."}) => {
     }
 
     return (
-        <section>
+        <section data-aos="fade-right" data-aos-easing="ease-in-sine">
             <section className="question border-2 rounded-[14px] p-6 flex justify-between items-center gap-4 shadow-lg shadow-slate-300">
                 <section className="text-sm md:text-base question-text font-bold">
                     { question }
