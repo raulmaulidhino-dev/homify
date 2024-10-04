@@ -21,7 +21,7 @@ const Nav = ({
             <ul className="flex items-center justify-around gap-8">
                 {navItems.map((item, index) => (
                     <li key={index} className="font-semibold">
-                        <a href={ item.link }>
+                        <a href={ item.link } className="hover:text-fuchsia-600">
                             { isMobile ? item.icon : item.label }
                         </a>
                     </li>
