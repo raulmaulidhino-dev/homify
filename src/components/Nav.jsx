@@ -17,8 +17,8 @@ const Nav = ({
     }, []);
 
     return (
-        <nav>
-            <ul className="flex items-center gap-8">
+        <nav className="grow md:grow-0">
+            <ul className="flex items-center justify-around gap-8">
                 {navItems.map((item, index) => (
                     <li key={index} className="font-semibold">
                         <a href={ item.link }>
