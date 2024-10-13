@@ -39,3 +39,9 @@ To see the project, follow these steps:
 - Alternatively, you also could see the smart home website here : [homify-web.vercel.app](https://homify-web.vercel.app)
 
 ## Reflection
+
+This prototype project was made as a submission for [INSYFEST 2024 Web Development Competition](https://www.instagram.com/insyfest). Even though the project didn't make it to the final round, there were many things I learned during the development of this project with my colleague, [siddiqfathurahman](https://github.com/siddiqfathurahman). In the development process, I learned a lot about collaborating with other programmer(s) and time management. Apart from that, which is no less important, I also learned a lot about using Git in collaborating, maximizing React and Tailwind to improve website performance and UI/UX, and using npm packages that can support the development of the prototype project!
+
+During the project development, I faced some problems like limited development time for the competition, which is only 2 weeks, means that this project is only a single page application. In addition, there are also problems when providing animation using the [AOS (Animate on Scroll)](https://michalsnik.github.io/aos/) package from npm. Sometimes, this animation package causes elements on the website to overflow, so it is not good for UI/UX. However, I'm able to overcome this by using enough animations and avoiding animation names that cause overflow such as `zoom-out` and `fade-left`. However, overall, this website is good in terms of appearance, responsiveness and typography.
+
+In the future, my colleague and I will try to develop its main version to provide smart home products and services for people. I also hope this prototype project can inspire visitors to look for initial ideas for their suitable smart home website projects! ✨
