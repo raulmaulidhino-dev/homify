@@ -2,7 +2,7 @@ import Logo from "../assets/homify-logo.webp";
 
 const Footer = () => {
     return (
-      <footer className="bg-white py-10 font-poppins mt-20">
+      <footer className="bg-white py-10 font-poppins mt-20 mb-20">
         <div className="container mx-auto px-5">
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
