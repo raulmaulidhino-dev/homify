@@ -16,16 +16,23 @@ To see the project, follow these steps:
    ```bash
    git clone https://github.com/raulmaulidhino-dev/homify.git
    cd homify
+   ```
 
 2. **Install Dependencies**
 
    Ensure you have [Node.js](https://nodejs.org/en) installed. Then, install the project dependencies by running:
-   `npm install`
+   
+   ```bash
+   npm install
+   ```
 
-3. **Run the Development Server**
+4. **Run the Development Server**
 
    Start the development server to see the project in action:
-   `npm run dev -- --open`
+   
+   ```bash
+   npm run dev -- --open
+   ```
 
    If it doesn't open automatically, you could open your browser and go to [`http://localhost:5173`](http://localhost:5173) to view the application.
 
