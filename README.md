@@ -1,8 +1,34 @@
-# React + Vite
+## Homify: Innovative Smart Home
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Homify is a prototype smart home website, built with HTML, CSS, JavaScript, React and TailwindCSS.
 
-Currently, two official plugins are available:
+## Project Screenshot(s)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Installation and Setup Instructions
+
+To see the project, follow these steps:
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine and navigate into the project directory:
+
+   ```bash
+   git clone https://github.com/raulmaulidhino-dev/homify.git
+   cd homify
+
+2. **Install Dependencies**
+
+   Ensure you have [Node.js](https://nodejs.org/en) installed. Then, install the project dependencies by running:
+   `npm install`
+
+3. **Run the Development Server**
+
+   Start the development server to see the project in action:
+   `npm run dev -- --open`
+
+   If it doesn't open automatically, you could open your browser and go to [`http://localhost:5173`](http://localhost:5173) to view the application.
+
+- Alternatively, you also could see the smart home website here : [homify-web.vercel.app](https://homify-web.vercel.app)
+
+## Reflection
