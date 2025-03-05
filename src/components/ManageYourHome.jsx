@@ -5,7 +5,7 @@ import ManageYourHomeImage from "../assets/manage-your-home-img.webp"
 
 const ManageYourHome = () => {
     return (
-        <section id="manage_your_home" className="w-full px-10 py-[6rem] flex flex-wrap justify-center items-center content-center gap-4">
+        <section id="manage_your_home" className="bg-gradient-to-r from-fuchsia-50 to-purple-50 w-full px-10 py-[6rem] flex flex-wrap justify-center items-center content-center gap-4">
             <img src={ ManageYourHomeImage } alt="Internet Home Illustration" className="md:max-w-md lg:max-w-lg inline-block" data-aos="fade-right" />
             <section>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold sm:max-w-[27rem] mb-[0.5em]" data-aos="fade-down"><span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Smart</span> Control, One Tap Away</h2>
