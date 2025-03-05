@@ -2,7 +2,7 @@ import Logo from "../assets/homify-logo.webp";
 
 const Footer = () => {
     return (
-      <footer className="bg-white py-10 font-poppins mt-20 mb-20">
+      <footer className="bg-gradient-to-r from-fuchsia-50 to-purple-50 py-10 font-poppins pt-20 pb-20">
         <div className="container mx-auto px-5">
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -97,8 +97,9 @@ const Footer = () => {
           </div>
   
           <div className="items-center justify-center text-center pt-10 text-slate-500">
-              <h1 data-aos="zoom-in">@2024 Homify_fathurahman x raul. All rights reserved.</h1>
+              <h1 data-aos="zoom-in">&copy; 2024&mdash;{new Date().getFullYear()} &ndash; Homify &ndash; <a href="https://github.com/siddiqfathurahman" type="_blank" className="hover:text-fuchsia-600 hover:underline bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Fathurahman</a> x <a href="https://github.com/raulmaulidhino-dev" type="_blank" className="hover:text-purple-600 hover:underline bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Raul</a>. All rights reserved.</h1>
           </div>
+          <div className="h-20"></div>
       </div>
       </footer>
     );
