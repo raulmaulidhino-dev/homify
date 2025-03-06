@@ -12,8 +12,8 @@ const Header = () => {
     const navItems = [
         {label:"Home", icon: <GoHome size="30" title="Home" className="menu-icon" />, link:"#top"},
         {label:"Products", icon: <IoCartOutline size="30" title="Products" className="menu-icon" />, link:"#plans"},
-        {label:"FAQs", icon: <IoHelpCircleOutline size="30" title="Solutions" className="menu-icon" />, link:"#faq"},
-        {label:"Contact Us", icon: <FiPhoneCall size="25" title="Blog" className="menu-icon" />, link:"#consulting"},
+        {label:"FAQs", icon: <IoHelpCircleOutline size="30" title="FAQs" className="menu-icon" />, link:"#faq"},
+        {label:"Contact Us", icon: <FiPhoneCall size="25" title="Contact Us" className="menu-icon" />, link:"#consulting"},
     ];
 
     return (
