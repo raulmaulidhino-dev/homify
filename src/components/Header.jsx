@@ -4,21 +4,21 @@ import Nav from "./Nav.jsx"
 
 import { GoHome } from "react-icons/go"
 import { IoCartOutline } from "react-icons/io5"
-import { GoCheckCircle } from "react-icons/go"
-import { GoNote } from "react-icons/go"
+import { IoHelpCircleOutline } from "react-icons/io5"
+import { FiPhoneCall } from "react-icons/fi"
 
 const Header = () => {
 
     const navItems = [
-        {label:"Home", icon: <GoHome size="30" title="Home" className="menu-icon" />, link:"#"},
+        {label:"Home", icon: <GoHome size="30" title="Home" className="menu-icon" />, link:"#top"},
         {label:"Products", icon: <IoCartOutline size="30" title="Products" className="menu-icon" />, link:"#plans"},
-        {label:"Solutions", icon: <GoCheckCircle size="30" title="Solutions" className="menu-icon" />, link:"#faq"},
-        {label:"Blog", icon: <GoNote size="30" title="Blog" className="menu-icon" />, link:"#discover"},
+        {label:"FAQs", icon: <IoHelpCircleOutline size="30" title="Solutions" className="menu-icon" />, link:"#faq"},
+        {label:"Contact Us", icon: <FiPhoneCall size="25" title="Blog" className="menu-icon" />, link:"#consulting"},
     ];
 
     return (
         <>
-            <header className="w-full pt-8 pb-4 md:hidden shadow-lg shadow-slate-300" data-aos="fade-down">
+            <header className="w-full pt-8 pb-4 md:hidden shadow-lg shadow-slate-300" data-aos="fade-down" id="top">
                 <div className="logo max-w-48 mx-auto">
                     <img src={ Logo } alt="Homify Logo" className="transform"/>
                 </div>
