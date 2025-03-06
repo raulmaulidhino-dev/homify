@@ -28,7 +28,7 @@ const Services = () => {
 
     return (
         <section>
-            <div className="flex flex-row flex-wrap content-around justify-around w-full font-poppins py-[3rem] px-10">
+            <div className="flex flex-row flex-wrap content-around justify-around w-full font-poppins py-[3rem] px-10" id="consulting">
                 <section className="w-full md:w-1/2 flex flex-col justify-center">
                     <h2 className="font-extrabold text-3xl sm:text-4xl md:text-5xl text-center md:text-left mb-4" data-aos="zoom-in">24/7 Technical Support And <span className="bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent">Consulting</span></h2>
                     <ul className="pt-5 text-sm md:text-base space-y-4">
