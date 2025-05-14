@@ -4,7 +4,7 @@ Homify is a prototype smart home website, built with HTML, CSS, JavaScript, Reac
 
 ## Project Screenshot(s)
 
-![Homify Web Preview](public/screenshots/Homify-preview.png)
+![Homify Web Preview](docs/Homify-preview.png)
 
 ## Installation and Setup Instructions
 
