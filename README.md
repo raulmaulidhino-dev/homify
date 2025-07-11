@@ -1,3 +1,5 @@
+![Homify Logo Banner](public/assets/homify-og.jpg)
+
 ## Homify: Innovative Smart Home
 
 Homify is a prototype smart home website, built with HTML, CSS, JavaScript, React and TailwindCSS.
